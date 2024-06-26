@@ -9,7 +9,7 @@ const config = defineConfig({
     apiVersion: "2024-06-22",
     basePath: "/admin",
     plugins: [deskTool()],
-    schema: { types: schemas },
-});
+    schema: { types: schemas }
+})
 
 export default config;
